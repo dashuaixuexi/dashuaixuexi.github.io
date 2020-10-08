@@ -757,7 +757,8 @@ main article.full img {
   border-radius: 3px;
   height: auto;
   margin-top: 20px;
-  width: 100%;
+/* width 100%  注销文章内图片宽度强制100%宽*/
+  max-width: 800px;
 }
 main article.full blockquote {
   -webkit-box-sizing: border-box;
@@ -970,6 +971,18 @@ hr:after {
   border-radius: 100%;
   -webkit-box-shadow: #f8f8f8 0 0 0 5px;
   box-shadow: #f8f8f8 0 0 0 5px;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 460px;
+}
+div.gallery img {
+  width: 460;
+  height: 120;
+}
+p.clear {
+  clear: both;
 }
 @media (min-width: 720px) {
   body {
