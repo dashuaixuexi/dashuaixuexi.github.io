@@ -112,4 +112,4 @@ theme: clexy
 deploy:
   type: git
   repository: git@github.com:dashuaixuexi/dashuaixuexi.github.io.git
-  branch: master
+  branch: hexo
